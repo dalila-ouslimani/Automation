@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="GE regression test" preserve-order = "true" parallel = "classes" thread-count ="1" >
+
+<listeners>
+<listener class-name="com.iddataweb.axn.automation.customListner.Listener"></listener> 
+<!--  listener class-name ="com.test.automation.uiAutomation.customListner.RetryListener"></listener> -->
+</listeners>
+
+<test name ="GE test">
+<classes>
+
+<class name ="com.iddataweb.axn.automation.ge.tesCoverage_Canada_C06"></class>
+<class name ="com.iddataweb.axn.automation.ge.testCoverage_US_C05"></class>
+<class name ="com.iddataweb.axn.automation.ge.testCoverage_Trulioo_c01"></class>
+<class name ="com.iddataweb.axn.automation.ge.testCoverageIreland"></class>
+<class name ="com.iddataweb.axn.automation.ge.testCoverageItaly"></class>
+<class name ="com.iddataweb.axn.automation.ge.testCoverageJapan"></class>
+<class name ="com.iddataweb.axn.automation.ge.tesCoverage_Corporate_c07"></class>
+<class name ="com.iddataweb.axn.automation.ge.tesCoverage_India_c04"></class>
+<class name ="com.iddataweb.axn.automation.ge.testCoverag_Trulioo_c02"></class>
+<class name ="com.iddataweb.axn.automation.ge.testCoverage_Trulioo_c03"></class>
+<class name ="com.iddataweb.axn.automation.ge.testCoverage_Trulioo_Denmark_c04"></class>
+<class name ="com.iddataweb.axn.automation.ge.testCoverage_Trulioo_HK_c03"></class>
+<class name ="com.iddataweb.axn.automation.ge.testCoverage_Trulioo_Singapore_c03"></class>
+<class name ="com.iddataweb.axn.automation.ge.testCoverage_Trulioo_UAE_c03"></class>
+<class name ="com.iddataweb.axn.automation.ge.testCoverage_Unverified_c08"></class>
+</classes>
+</test> 
+</suite>
